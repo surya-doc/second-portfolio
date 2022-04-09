@@ -1,0 +1,24 @@
+.footer{
+    background: #FAF9F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social_1 i{
+    color: black;
+}
+
+.bs i{
+    padding: 4px 10px;
+}
+
+.footer-img{
+    filter: grayscale(100%);
+}
+
+.abs{
+    color: #333;
+}
+
+.abs:hover{
+    color: #62c0ff;
+}

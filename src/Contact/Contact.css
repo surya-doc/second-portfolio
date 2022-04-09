@@ -1,0 +1,24 @@
+.contact {
+    padding: 20px 0px;
+}
+
+form textarea {
+    outline: none;
+    padding: 20px;
+    width: 40vw;
+    border: 2px solid #d3d3d3;
+}
+
+.input_send {
+    background-color: #828282;
+    padding: 8px 26px;
+    color: #FFF;
+    font-weight: 600;
+    margin: 10px 0px 40px 0px;
+}
+
+@media(max-width: 500px) {
+    form textarea {
+        width: 90vw;
+    }
+}

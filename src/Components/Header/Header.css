@@ -1,0 +1,109 @@
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #FFF;
+    z-index: 999;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+}
+
+.header div a{
+    padding: 2px 20px 0px 20px;
+    cursor: pointer;
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.header div a:hover{
+    border-bottom: 2px solid #ff0057;
+}
+
+.border{
+    border-bottom: 2px solid #ff0057;
+}
+
+.mob-nav{
+    transition-duration: 1000ms;
+    position: relative;
+    background-color: black;
+}
+
+.ham-berger{
+    background-color: black;
+}
+
+.ham-berger i{
+    color: rgb(80, 79, 79);
+}
+
+.down{
+    padding-top: 20px;
+    /* height: 90vh; */
+}
+
+.up{
+    height: 0px;
+}
+
+.about_1, .study_1, .contact_1, .skill_1, .project_1{
+    border: 2px solid #333;
+    color: #FFF;
+    border-radius: 20px;
+    margin: 14px 0px;
+}
+
+.about_1{
+    width: 80%;
+    animation: appear_left 400ms ease;
+}
+
+.study_1{
+    width: 80%;
+    animation: appear_right 700ms ease;
+}
+
+.skill_1{
+    width: 80%;
+    animation: appear_left 1000ms ease;
+}
+
+.project_1{
+    width: 80%;
+    animation: appear_right 1300ms ease;
+}
+
+.contact_1{
+    width: 80%;
+    animation: appear_left 1600ms ease;
+}
+
+@keyframes appear_left{
+    0%{
+        opacity: 0;
+        left: -100vw;
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes appear_right{
+    0%{
+        opacity: 0;
+        right: -100vw;
+    }
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+}
