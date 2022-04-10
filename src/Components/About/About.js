@@ -1,12 +1,13 @@
 import React from 'react';
 import './About.css';
+import me from './me.jpg';
 
 function About() {
   return (
     <div id='about'>
       <div className='about_sec flex lg:flex-col lg:my-auto'>
           <div className='me'>
-              <img className='mx-auto' src="me.jpg" alt="" />
+              <img className='mx-auto' src={me} alt="" />
               <div className="socil">
               <a className='social' href='https://www.linkedin.com/in/surya-dana-4787271b1/'><i class="fa fa-linkedin"></i></a>
               <a className='social' href='https://github.com/surya-doc'><i class="fa fa-github"></i></a>

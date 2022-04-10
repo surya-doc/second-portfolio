@@ -12,7 +12,7 @@ function Footer() {
                 <div className='md:text-center'>Made with <i class="fa fa-heart" style={{color: "red"}}></i></div>
             </div>
             <div className='lg:w-1/3 md:m-auto md:mb-8 sm:w-full'>
-                <img className='sm:mx-auto' style={{width: "200px"}} src="Surya_Dana_b1.png" alt="" />
+                <img className='sm:mx-auto' style={{width: "200px"}} src="./second-portfolio/Surya_Dana_b1.png" alt="" />
             </div>
             <div className='flex lg:w-1/3 md:m-auto sm:w-full sm:flex sm:items-center'>
                 <div className='sm:text-center sm:w-full'>
@@ -24,11 +24,11 @@ function Footer() {
                         <a className='bs social mt-1' href='mailto:suryadanabnk@gmail.com'><i class="fa fa-envelope abs"></i></a>
                     </div>
                 </div>
-                <div className='relative sm:hidden'> <img src="arrow.png" alt=""  style={{width: "80px"}} /></div>
+                <div className='relative sm:hidden'> <img src="./second-portfolio/arrow.png" alt=""  style={{width: "80px"}} /></div>
             </div>
         </div>
         <div className='footer-img'>
-            <img className='mx-auto' src="Foot.png" alt="" />
+            <img className='mx-auto' src="./second-portfolio/foot.png" alt="" />
         </div>
     </div>
   )

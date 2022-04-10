@@ -10,7 +10,7 @@ function Body() {
     <div className='body'>
         <div className="name">
             <div className='md:hidden'>
-                <img style={{width: "300px"}} src="signature.png" alt="" />
+                <img style={{width: "300px"}} src="./second-portfolio/signature.png" alt="" />
                 <h1>I'm a web developer and a </h1>
                 <h1 className='dly'>proud Indian.</h1>
                 <div><div className="about mt-8"><a href="#about">About</a></div></div>
@@ -18,7 +18,7 @@ function Body() {
         </div>
         <div className="m-b">
             <div className='hidden md:block'>
-                <img className='m-img mx-auto' style={{width: "300px"}} src="signature.png" alt="" />
+                <img className='m-img mx-auto' style={{width: "300px"}} src="./second-portfolio/signature.png" alt="" />
                 <h1 className='text-lg'>I'm a web developer and a proud Indian.</h1>
                 {/* <h1 className='dly'></h1> */}
                 <div><div className="about mt-8"><a href="#about">About</a></div></div>
